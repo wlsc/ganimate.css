@@ -16,6 +16,12 @@ Easiest way to add amazing animations to your GWT application!
   <inherits name='de.wlsc.gwt.theme.ganimate.css.Ganimate' />
   ```
 
+* and just use it like this:
+
+```java
+  <g:Label styleName="animated bounceInRight" />
+  ```
+
 ## Installation (unminified version)
 
 * download **ganimation.css-0.6.jar**, place it into your project's lib folder and include it to a project
