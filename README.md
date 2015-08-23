@@ -24,7 +24,7 @@ Easiest way to add amazing animations to your GWT application!
 
 ## Installation (unminified version)
 
-* download **ganimation.css-0.6.jar**, place it into your project's lib folder and include it to a project
+* download **[ganimation.css-0.6.jar](https://github.com/wlsc/ganimate.css/releases/download/v0.6/ganimate.css-0.6.jar)**, place it into your project's lib folder and include it to a project
 
 * include into your **\<module_name\>.gwt.xml** file:
  
