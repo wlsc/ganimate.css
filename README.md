@@ -1,6 +1,6 @@
 # Ganimate.css: Animate.css for GWT styling
 
-Easiest way to add amazing animations to your GWT application!
+Easiest way to add amazing animations to your GWT application! **Animate.css** version **3.4.0**
 
 ## Introduction from [Animate.css](https://github.com/daneden/animate.css) library:
 
