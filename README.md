@@ -1,6 +1,6 @@
 # Ganimate.css: Animate.css for GWT styling
 
-Easiest way to add amazing animations to your GWT application! **Animate.css** version **3.5.1**
+Easiest way to add amazing animations to your GWT application! **Animate.css** version **3.5.2**
 
 ## Introduction from [Animate.css](https://github.com/daneden/animate.css) library:
 
@@ -8,7 +8,7 @@ Easiest way to add amazing animations to your GWT application! **Animate.css** v
 
 ## Installation (default: production version)
 
-* download **[ganimation.css-3.5.1.jar](https://github.com/wlsc/ganimate.css/releases/download/v3.5.1/ganimate.css-3.5.1.jar)**, place it into your project's lib folder and include it to a project
+* download **[ganimation.css-3.5.2.jar](https://github.com/wlsc/ganimate.css/releases/download/v3.5.2/ganimate.css-3.5.2.jar)**, place it into your project's lib folder and include it to a project
 
 * include into your **\<module_name\>.gwt.xml** file:
 
@@ -24,7 +24,7 @@ Easiest way to add amazing animations to your GWT application! **Animate.css** v
 
 ## Installation (unminified version)
 
-* download **[ganimation.css-3.5.1.jar](https://github.com/wlsc/ganimate.css/releases/download/v3.5.1/ganimate.css-3.5.1.jar)**, place it into your project's lib folder and include it to a project
+* download **[ganimation.css-3.5.2.jar](https://github.com/wlsc/ganimate.css/releases/download/v3.5.2/ganimate.css-3.5.2.jar)**, place it into your project's lib folder and include it to a project
 
 * include into your **\<module_name\>.gwt.xml** file:
  
