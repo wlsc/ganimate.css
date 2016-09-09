@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Ganimate.css by wlsc</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Ganimate.css</h1>
+        <h2>Ganimate.css: Animate.css for GWT styling</h2>
+        <a href="https://github.com/wlsc/ganimate.css" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="ganimatecss-animatecss-for-gwt-styling" class="anchor" href="#ganimatecss-animatecss-for-gwt-styling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ganimate.css: Animate.css for GWT styling</h1>
+
+<p>Easiest way to add amazing animations to your GWT application! <strong>Animate.css</strong> version <strong>3.5.2</strong></p>
+
+<h2>
+<a id="introduction-from-animatecss-library" class="anchor" href="#introduction-from-animatecss-library" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction from <a href="https://github.com/daneden/animate.css">Animate.css</a> library:</h2>
+
+<p><code>animate.css</code> is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.</p>
+
+<h2>
+<a id="installation-default-production-version" class="anchor" href="#installation-default-production-version" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation (default: production version)</h2>
+
+<ul>
+<li><p>download <strong><a href="https://github.com/wlsc/ganimate.css/releases/download/v3.5.2/ganimate.css-3.5.2.jar">ganimation.css-3.5.2.jar</a></strong>, place it into your project's lib folder and include it to a project</p></li>
+<li><p>include into your <strong>&lt;module_name&gt;.gwt.xml</strong> file:</p></li>
+</ul>
+
+<div class="highlight highlight-text-xml"><pre>  &lt;<span class="pl-ent">inherits</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">'</span>de.wlsc.gwt.theme.ganimate.css.Ganimate<span class="pl-pds">'</span></span> /&gt;</pre></div>
+
+<ul>
+<li>and just use it like this:</li>
+</ul>
+
+<div class="highlight highlight-source-java"><pre>  <span class="pl-k">&lt;</span>g<span class="pl-k">:</span><span class="pl-smi">Label</span> styleName<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>animated bounceInRight<span class="pl-pds">"</span></span> <span class="pl-k">/</span><span class="pl-k">&gt;</span></pre></div>
+
+<h2>
+<a id="installation-unminified-version" class="anchor" href="#installation-unminified-version" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation (unminified version)</h2>
+
+<ul>
+<li><p>download <strong><a href="https://github.com/wlsc/ganimate.css/releases/download/v3.5.2/ganimate.css-3.5.2.jar">ganimation.css-3.5.2.jar</a></strong>, place it into your project's lib folder and include it to a project</p></li>
+<li><p>include into your <strong>&lt;module_name&gt;.gwt.xml</strong> file:</p></li>
+</ul>
+
+<div class="highlight highlight-text-xml"><pre>  &lt;<span class="pl-ent">inherits</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">'</span>de.wlsc.gwt.theme.ganimate.css.GanimateDebug<span class="pl-pds">'</span></span> /&gt;</pre></div>
+
+<ul>
+<li>and just use it like this:</li>
+</ul>
+
+<div class="highlight highlight-source-java"><pre>  <span class="pl-k">&lt;</span>g<span class="pl-k">:</span><span class="pl-smi">Label</span> styleName<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>animated bounceInRight<span class="pl-pds">"</span></span> <span class="pl-k">/</span><span class="pl-k">&gt;</span></pre></div>
+
+<h2>
+<a id="possible-list-of-animations" class="anchor" href="#possible-list-of-animations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Possible list of animations</h2>
+
+<ul>
+<li><code>bounce</code></li>
+<li><code>flash</code></li>
+<li><code>pulse</code></li>
+<li><code>rubberBand</code></li>
+<li><code>shake</code></li>
+<li><code>swing</code></li>
+<li><code>tada</code></li>
+<li><code>wobble</code></li>
+<li><code>jello</code></li>
+<li><code>bounceIn</code></li>
+<li><code>bounceInDown</code></li>
+<li><code>bounceInLeft</code></li>
+<li><code>bounceInRight</code></li>
+<li><code>bounceInUp</code></li>
+<li><code>bounceOut</code></li>
+<li><code>bounceOutDown</code></li>
+<li><code>bounceOutLeft</code></li>
+<li><code>bounceOutRight</code></li>
+<li><code>bounceOutUp</code></li>
+<li><code>fadeIn</code></li>
+<li><code>fadeInDown</code></li>
+<li><code>fadeInDownBig</code></li>
+<li><code>fadeInLeft</code></li>
+<li><code>fadeInLeftBig</code></li>
+<li><code>fadeInRight</code></li>
+<li><code>fadeInRightBig</code></li>
+<li><code>fadeInUp</code></li>
+<li><code>fadeInUpBig</code></li>
+<li><code>fadeOut</code></li>
+<li><code>fadeOutDown</code></li>
+<li><code>fadeOutDownBig</code></li>
+<li><code>fadeOutLeft</code></li>
+<li><code>fadeOutLeftBig</code></li>
+<li><code>fadeOutRight</code></li>
+<li><code>fadeOutRightBig</code></li>
+<li><code>fadeOutUp</code></li>
+<li><code>fadeOutUpBig</code></li>
+<li><code>flipInX</code></li>
+<li><code>flipInY</code></li>
+<li><code>flipOutX</code></li>
+<li><code>flipOutY</code></li>
+<li><code>lightSpeedIn</code></li>
+<li><code>lightSpeedOut</code></li>
+<li><code>rotateIn</code></li>
+<li><code>rotateInDownLeft</code></li>
+<li><code>rotateInDownRight</code></li>
+<li><code>rotateInUpLeft</code></li>
+<li><code>rotateInUpRight</code></li>
+<li><code>rotateOut</code></li>
+<li><code>rotateOutDownLeft</code></li>
+<li><code>rotateOutDownRight</code></li>
+<li><code>rotateOutUpLeft</code></li>
+<li><code>rotateOutUpRight</code></li>
+<li><code>hinge</code></li>
+<li><code>rollIn</code></li>
+<li><code>rollOut</code></li>
+<li><code>zoomIn</code></li>
+<li><code>zoomInDown</code></li>
+<li><code>zoomInLeft</code></li>
+<li><code>zoomInRight</code></li>
+<li><code>zoomInUp</code></li>
+<li><code>zoomOut</code></li>
+<li><code>zoomOutDown</code></li>
+<li><code>zoomOutLeft</code></li>
+<li><code>zoomOutRight</code></li>
+<li><code>zoomOutUp</code></li>
+<li><code>slideInDown</code></li>
+<li><code>slideInLeft</code></li>
+<li><code>slideInRight</code></li>
+<li><code>slideInUp</code></li>
+<li><code>slideOutDown</code></li>
+<li><code>slideOutLeft</code></li>
+<li><code>slideOutRight</code></li>
+<li><code>slideOutUp</code></li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>Ganimate.css is licensed under the MIT license.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/wlsc/ganimate.css/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/wlsc/ganimate.css/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/wlsc/ganimate.css"></a> is maintained by <a href="https://github.com/wlsc">wlsc</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
