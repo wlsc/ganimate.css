@@ -1,5 +1,7 @@
 # Ganimate.css: Animate.css for GWT styling
 
+[![License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 Easiest way to add amazing animations to your GWT application! **Animate.css** version **3.5.2**
 
 ## Introduction from [Animate.css](https://github.com/daneden/animate.css) library:
